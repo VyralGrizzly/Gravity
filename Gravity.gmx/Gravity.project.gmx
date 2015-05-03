@@ -106,6 +106,7 @@
     <objects name="obj_items">
       <object>objects\obj_checkpoint</object>
     </objects>
+    <object>objects\TestObject</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
