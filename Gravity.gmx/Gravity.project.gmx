@@ -71,8 +71,8 @@
   </fonts>
   <objects name="objects">
     <objects name="obj_player">
-      <object>objects\obj_player_char</object>
       <object>objects\obj_player_dead</object>
+      <object>objects\obj_player_char</object>
     </objects>
     <objects name="obj_system">
       <object>objects\obj_collision</object>
@@ -106,7 +106,6 @@
     <objects name="obj_items">
       <object>objects\obj_checkpoint</object>
     </objects>
-    <object>objects\TestObject</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

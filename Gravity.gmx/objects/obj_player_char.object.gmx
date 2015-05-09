@@ -68,11 +68,11 @@ if( global.checkpointR == room)
           <argument>
             <kind>1</kind>
             <string>//Get the player's input
-key_right = keyboard_check(vk_right);
-key_left = -keyboard_check(vk_left);
-key_jump = keyboard_check_pressed(vk_space);
-key_grav = keyboard_check_pressed(vk_alt);
-key_down = keyboard_check(vk_down);
+key_right = keyboard_check(ord('D'));
+key_left = -keyboard_check(ord('A'));
+key_jump = keyboard_check_pressed(ord('W'));
+key_grav = keyboard_check_pressed(vk_space);
+key_down = keyboard_check(ord('S'));
 
 // Location of player
 
@@ -137,7 +137,21 @@ if (place_meeting(x,y+2,obj_collision)|| place_meeting(x,y-2,obj_collision))
        
     }
     
-    if (key_grav = 1)
+    //if (key_grav = 1)
+   // {
+     //   global.flip = global.flip * (-1);
+       // grav = grav * (-1);
+        
+        
+        //if (global.flip = 1) vsp = 5;
+        //if (global.flip = -1) vsp = -5;
+        
+       // image_yscale = image_yscale * (-1);
+   // }
+    
+}
+
+if (key_grav = 1)
     {
         global.flip = global.flip * (-1);
         grav = grav * (-1);
@@ -148,10 +162,6 @@ if (place_meeting(x,y+2,obj_collision)|| place_meeting(x,y-2,obj_collision))
         
         image_yscale = image_yscale * (-1);
     }
-    
-}
-
-
 
 
 //Horizontal Collision
