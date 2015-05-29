@@ -33,6 +33,11 @@ jumpspeed = 10;
 movespeed = 5;
 jump = false;
 
+//variables for platforms
+global.hsp_carry = 0;
+global.vsp_carry = 0;
+hsp_final = 0;
+
 //Variables used for death 
 global.flip = 1;
 
@@ -70,12 +75,9 @@ if( global.checkpointR == room)
             <string>//Get the player's input
 key_right = keyboard_check(ord('D'));
 key_left = -keyboard_check(ord('A'));
-key_jump = keyboard_check_pressed(ord('W'));
-key_grav = keyboard_check_pressed(vk_space);
+key_jump = keyboard_check_pressed(vk_space);
+key_grav = keyboard_check_pressed(vk_shift);
 key_down = keyboard_check(ord('S'));
-
-// Location of player
-
 
 //animation of sprite 
 if (!place_meeting(x,y+3,obj_collision) &amp;&amp; !place_meeting(x,y-3,obj_collision)){
@@ -114,9 +116,6 @@ if(key_right &gt; 0)
 }
 
 
-
-
-
 //React to inputs
 global.move = key_left + key_right;
 hsp = global.move * movespeed;
@@ -137,21 +136,7 @@ if (place_meeting(x,y+2,obj_collision)|| place_meeting(x,y-2,obj_collision))
        
     }
     
-    //if (key_grav = 1)
-   // {
-     //   global.flip = global.flip * (-1);
-       // grav = grav * (-1);
-        
-        
-        //if (global.flip = 1) vsp = 5;
-        //if (global.flip = -1) vsp = -5;
-        
-       // image_yscale = image_yscale * (-1);
-   // }
-    
-}
-
-if (key_grav = 1)
+    if (key_grav = 1)
     {
         global.flip = global.flip * (-1);
         grav = grav * (-1);
@@ -162,18 +147,26 @@ if (key_grav = 1)
         
         image_yscale = image_yscale * (-1);
     }
+}
+
+
+
+// moving platforms
+hsp_final = hsp + global.hsp_carry;
+vsp += global.vsp_carry;
 
 
 //Horizontal Collision
-if (place_meeting(x+hsp,y,obj_collision))
+if (place_meeting(x+hsp_final,y,obj_collision))
 {
     while(!place_meeting(x+sign(hsp),y,obj_collision))
     {
-        x += sign(hsp);
+        x += sign(hsp_final);
     }
     hsp = 0;
+    hsp_final = 0;
 }
-x += hsp;
+x += hsp_final;
 
 //Vertical Collision
 if (place_meeting(x,y+vsp,obj_collision))
@@ -188,6 +181,7 @@ if (place_meeting(x,y+vsp,obj_collision))
     
 }
 y += vsp;
+
 </string>
           </argument>
         </arguments>

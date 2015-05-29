@@ -38,6 +38,9 @@
       <sprite>sprites\sp_checkpoint_off</sprite>
       <sprite>sprites\sp_checkpoint_on</sprite>
     </sprites>
+    <sprites name="sp_environment">
+      <sprite>sprites\sp_stone_platform</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_black</background>
@@ -105,6 +108,9 @@
     </objects>
     <objects name="obj_items">
       <object>objects\obj_checkpoint</object>
+    </objects>
+    <objects name="obj_environment">
+      <object>objects\obj_stone_platform</object>
     </objects>
   </objects>
   <rooms name="rooms">
