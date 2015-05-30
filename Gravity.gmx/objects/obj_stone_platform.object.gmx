@@ -76,7 +76,16 @@ global.hsp_carry = 0;
 
 if (global.flip = 1){
 
-    if (place_meeting(x,y+2,obj_player_char)|| place_meeting(x,y-2,obj_player_char)){   
+    if (place_meeting(x,y-3,obj_player_char)){   
+        
+        global.hsp_carry += hsp;
+        
+        }
+    }
+    
+if (global.flip = -1){
+
+    if (place_meeting(x,y+3,obj_player_char)){   
         
         global.hsp_carry += hsp;
         
@@ -86,9 +95,10 @@ if (global.flip = 1){
 //horizontal push of player
 
 
-if (place_meeting(x-2,y,obj_player_char)|| place_meeting(x+2,y,obj_player_char)){   
+if (place_meeting(x-1,y,obj_player_char)|| place_meeting(x+1,y,obj_player_char)){   
         
     global.hsp_carry += hsp;
+    
         
    }
 
