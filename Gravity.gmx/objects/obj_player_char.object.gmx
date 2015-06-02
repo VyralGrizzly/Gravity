@@ -33,10 +33,6 @@ jumpspeed = 10;
 movespeed = 5;
 jump = false;
 
-//variables for platforms
-global.hsp_carry = 0;
-global.vsp_carry = 0;
-hsp_final = 0;
 
 //Variables used for death 
 global.flip = 1;
@@ -80,7 +76,7 @@ key_grav = keyboard_check_pressed(vk_shift);
 key_down = keyboard_check(ord('S'));
 
 //animation of sprite 
-if (!place_meeting(x,y+3,obj_collision) &amp;&amp; !place_meeting(x,y-3,obj_collision)){
+if (!place_meeting(x,y+5,obj_collision) &amp;&amp; !place_meeting(x,y-5,obj_collision)){
 
     sprite_index = sp_char_blue_jump;
     } else{
@@ -149,24 +145,17 @@ if (place_meeting(x,y+2,obj_collision)|| place_meeting(x,y-2,obj_collision))
     }
 }
 
-
-
-// moving platforms
-hsp_final = hsp + global.hsp_carry;
-vsp += global.vsp_carry;
-
-
 //Horizontal Collision
-if (place_meeting(x+hsp_final,y,obj_collision))
+if (place_meeting(x+hsp,y,obj_collision))
 {
     while(!place_meeting(x+sign(hsp),y,obj_collision))
     {
-        x += sign(hsp_final);
+        x += sign(hsp);
     }
     hsp = 0;
-    hsp_final = 0;
+    
 }
-x += hsp_final;
+x += hsp;
 
 //Vertical Collision
 if (place_meeting(x,y+vsp,obj_collision))
@@ -176,10 +165,9 @@ if (place_meeting(x,y+vsp,obj_collision))
     {
         y += sign(vsp);
         
-    }
+    }  
     vsp = 0;  
-    x += global.hsp_carry;
-    
+       
 }
 y += vsp;
 

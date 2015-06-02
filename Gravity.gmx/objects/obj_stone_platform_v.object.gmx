@@ -29,7 +29,7 @@
 
 distance = 120;
 step = 120;
-hsp = 2;
+vsp = 2;
 
 </string>
           </argument>
@@ -59,28 +59,28 @@ hsp = 2;
 if ( step &gt; 0){
 
     step -= 1;
-    x += hsp;
+    y += vsp;
     
     }
     else{ 
     
         step = distance;
-        hsp *= -1
+        vsp *= -1
         }
         
 // player interaction
 
 
 // player standing on platform
-hsp_carry = 0;
+vsp_carry = 0;
 
 
 if (global.flip = 1){
 
     if (place_meeting(x,y-3,obj_player_char)){   
         
-        hsp_carry = hsp;
-        obj_player_char.x += hsp_carry;
+        vsp_carry = vsp;
+        obj_player_char.y += vsp_carry;
         }
     }
     
@@ -88,8 +88,8 @@ if (global.flip = -1){
 
     if (place_meeting(x,y+3,obj_player_char)){   
         
-        hsp_carry = hsp;
-        obj_player_char.x += hsp_carry;
+        vsp_carry = vsp;
+        obj_player_char.y += vsp_carry;
         
         }
     }

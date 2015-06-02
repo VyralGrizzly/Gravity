@@ -110,7 +110,8 @@
       <object>objects\obj_checkpoint</object>
     </objects>
     <objects name="obj_environment">
-      <object>objects\obj_stone_platform</object>
+      <object>objects\obj_stone_platform_h</object>
+      <object>objects\obj_stone_platform_v</object>
     </objects>
   </objects>
   <rooms name="rooms">
