@@ -57,6 +57,7 @@
     <background>background\bg_snow</background>
     <background>background\bg_tundra</background>
     <background>background\bg_items1</background>
+    <background>background\bg_items2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">

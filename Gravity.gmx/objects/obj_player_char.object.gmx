@@ -76,23 +76,50 @@ key_grav = keyboard_check_pressed(vk_shift);
 key_down = keyboard_check(ord('S'));
 
 //animation of sprite 
-if (!place_meeting(x,y+5,obj_collision) &amp;&amp; !place_meeting(x,y-5,obj_collision)){
 
-    sprite_index = sp_char_blue_jump;
-    } else{
+if (global.flip = 1){
 
-if(key_left &lt; 0 || key_right &gt; 0) 
-{
-    sprite_index = sp_char_blue_walk;
+    if (!place_meeting(x,y+5,obj_collision)){
     
-   }else{
-        if( hsp = 0) 
-        {
-
-            sprite_index = sp_char_blue; 
-            image_speed = .03;
+        sprite_index = sp_char_blue_jump;
+        } else{
+    
+            if(key_left &lt; 0 || key_right &gt; 0) 
+            {
+                sprite_index = sp_char_blue_walk;
+                
+               }else{
+                    if( hsp = 0) 
+                    {
             
-        }
+                        sprite_index = sp_char_blue; 
+                        image_speed = .03;
+                        
+                    }
+                }
+    }
+}
+
+if (global.flip = -1){
+
+    if (!place_meeting(x,y-5,obj_collision)){
+    
+        sprite_index = sp_char_blue_jump;
+        } else{
+    
+            if(key_left &lt; 0 || key_right &gt; 0) 
+            {
+                sprite_index = sp_char_blue_walk;
+                
+               }else{
+                    if( hsp = 0) 
+                    {
+            
+                        sprite_index = sp_char_blue; 
+                        image_speed = .03;
+                        
+                    }
+                }
     }
 }
 
@@ -122,14 +149,12 @@ if (place_meeting(x,y+2,obj_collision)|| place_meeting(x,y-2,obj_collision))
 {
     if (global.flip = 1)
     {   
-        vsp = key_jump * -jumpspeed;
-        
+        if (key_jump) vsp = -jumpspeed;
     }
     
     if (global.flip = -1)   
     {
-        vsp = key_jump * jumpspeed;
-       
+        if (key_jump) vsp = jumpspeed;     
     }
     
     if (key_grav = 1)
@@ -160,17 +185,34 @@ x += hsp;
 //Vertical Collision
 if (place_meeting(x,y+vsp,obj_collision))
 {
-
     while(!place_meeting(x,y+sign(vsp),obj_collision))
     {
         y += sign(vsp);
         
     }  
-    vsp = 0;  
-       
+    vsp = 0;               
 }
 y += vsp;
 
+//Vertical platform fix to make you stop sticking to decending platforms
+
+//if (global.flip = 1){
+
+    //if (place_meeting(x,y-3,obj_collision)){
+    
+    //    y += 2;    
+    
+  //  }    
+//}
+
+//if (global.flip = -1){
+
+//    if (place_meeting(x,y+3,obj_collision)){
+    
+//        y -= 2;    
+    
+//    }    
+//}
 </string>
           </argument>
         </arguments>

@@ -151,7 +151,6 @@
     <instance objName="obj_dead" x="3010" y="735" name="inst_2E764CC4" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dead" x="14490" y="700" name="inst_C81A07F1" locked="0" code="" scaleX="15" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dead" x="15225" y="700" name="inst_2433F713" locked="0" code="" scaleX="45" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_slime_pink_up" x="875" y="70" name="inst_E6E03566" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_enemy" x="0" y="35" name="inst_2B79C179" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_enemy" x="1330" y="35" name="inst_0C4D49EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_slime_pink_up" x="11165" y="350" name="inst_567503A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -161,7 +160,10 @@
     <instance objName="obj_slime_pink_up" x="13825" y="105" name="inst_21545693" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_slime_pink_up" x="13405" y="105" name="inst_132100E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stone_platform_h" x="420" y="525" name="inst_7D19AA3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stone_platform_v" x="840" y="245" name="inst_D10ACE7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stone_platform_v" x="840" y="210" name="inst_D10ACE7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stone_platform_h" x="210" y="210" name="inst_A8BF49B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_D7EB400F" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
+    <instance objName="obj_dead" x="420" y="35" name="inst_0FF80C23" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_spritesheet1" x="3710" y="665" w="70" h="70" xo="432" yo="576" id="10001235" name="inst_6B8ABB1A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -248,6 +250,10 @@
     <tile bgName="bg_sand" x="10115" y="455" w="70" h="70" xo="0" yo="280" id="10001386" name="inst_1F1FAF81" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="10185" y="455" w="70" h="70" xo="0" yo="280" id="10001387" name="inst_AB855D6E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_castle" x="12320" y="175" w="70" h="70" xo="0" yo="0" id="10001642" name="inst_F7DAFA70" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_items2" x="630" y="105" w="70" h="70" xo="490" yo="280" id="10001644" name="inst_ED47385D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="-1"/>
+    <tile bgName="bg_items2" x="560" y="105" w="70" h="70" xo="490" yo="280" id="10001647" name="inst_53AF37CC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="-1"/>
+    <tile bgName="bg_items2" x="490" y="105" w="70" h="70" xo="490" yo="280" id="10001648" name="inst_DC50BF09" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="-1"/>
+    <tile bgName="bg_items2" x="420" y="105" w="70" h="70" xo="490" yo="280" id="10001649" name="inst_58D93415" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="-1"/>
     <tile bgName="bg_grass" x="0" y="595" w="70" h="70" xo="280" yo="210" id="10000780" name="inst_2D4E9736" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grass" x="70" y="595" w="70" h="70" xo="280" yo="210" id="10000781" name="inst_ADA16454" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grass" x="140" y="595" w="70" h="70" xo="280" yo="210" id="10000782" name="inst_089C8677" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
