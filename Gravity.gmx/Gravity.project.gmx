@@ -37,6 +37,7 @@
     <sprites name="sp_items">
       <sprite>sprites\sp_checkpoint_off</sprite>
       <sprite>sprites\sp_checkpoint_on</sprite>
+      <sprite>sprites\sp_star</sprite>
     </sprites>
     <sprites name="sp_environment">
       <sprite>sprites\sp_stone_platform</sprite>
@@ -109,6 +110,7 @@
     </objects>
     <objects name="obj_items">
       <object>objects\obj_checkpoint</object>
+      <object>objects\obj_star</object>
     </objects>
     <objects name="obj_environment">
       <object>objects\obj_stone_platform_h</object>
@@ -117,8 +119,9 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_demo</room>
+    <room>rooms\rm_test_lvl_1</room>
     <room>rooms\rm_gameover</room>
+    <room>rooms\rm_demo</room>
     <room>rooms\rm_template</room>
   </rooms>
   <help>
