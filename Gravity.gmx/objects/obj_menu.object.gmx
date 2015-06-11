@@ -33,6 +33,12 @@ menu[3] = "Quit";
 space = 64;
 mpos = 0;
 
+// Gamepad Deadzone
+gamepad_set_axis_deadzone(0,0.7);
+
+//Timer used for slow menu movement
+
+timer = 0;
 </string>
           </argument>
         </arguments>
@@ -56,18 +62,22 @@ mpos = 0;
           <argument>
             <kind>1</kind>
             <string>var move = 0;
-move -= max(keyboard_check_pressed(vk_up),keyboard_check_pressed(ord("W")),0);
-move += max(keyboard_check_pressed(vk_down),keyboard_check_pressed(ord("S")),0);
+move -= max((gamepad_axis_value(0,gp_axislv) &lt; 0),keyboard_check_pressed(ord("W")),0);
+move += max((gamepad_axis_value(0,gp_axislv) &gt; 0),keyboard_check_pressed(ord("S")),0);
 
-if (move != 0)
+
+timer -= 1;
+
+if (move != 0) &amp;&amp; (timer &lt; 0)
 {
     mpos += move;
     if (mpos &lt;0) mpos = array_length_1d(menu) - 1;
-    if (mpos &gt; array_length_1d(menu) - 1) mpos = 0;    
+    if (mpos &gt; array_length_1d(menu) - 1) mpos = 0;
+    timer = 15;    
 }
 
 var push;
-push = max(keyboard_check_released(vk_enter),keyboard_check_released(vk_space),0);
+push = max(keyboard_check_released(vk_enter),gamepad_button_check_pressed(0,gp_face1),0);
 if (push == 1) sc_menu();
 
 
