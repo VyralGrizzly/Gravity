@@ -7,9 +7,13 @@ if file_exists("Save.sav")
     global.checkpointx = ini_read_real("Save","checkpointx",0);
     global.checkpointy = ini_read_real("Save","checkpointy",0);
 
-    var LoadRoom = ini_read_real("Save","room",rm_planet1);
+    var LoadRoom = ini_read_real("Save","room",noone);
     
     ini_close();
     room_goto(LoadRoom);
     
+}else{
+
+// do nothing
+
 }
