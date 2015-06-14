@@ -33,6 +33,8 @@ jumpspeed = 10;
 movespeed = 5;
 jump = false;
 
+key_grav = 0;
+
 // gamepad deadzone
 
 gamepad_set_axis_deadzone(0,0.3);
@@ -75,7 +77,6 @@ if( global.checkpointR == room)
 key_right = keyboard_check(ord('D')) || (gamepad_axis_value(0,gp_axislh) &gt; 0);
 key_left = -(keyboard_check(ord('A')) || (gamepad_axis_value(0,gp_axislh) &lt; 0));
 key_jump = keyboard_check_pressed(vk_space) || (gamepad_button_check_pressed(0,gp_face1));
-key_grav = keyboard_check_pressed(vk_shift) || (gamepad_button_check_pressed(0,gp_face2));
 key_down = keyboard_check(ord('S'));
 
 

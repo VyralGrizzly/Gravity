@@ -45,8 +45,6 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_black</background>
-    <background>background\bg_grasslands</background>
-    <background>background\bg_spritesheet1</background>
     <background>background\bg_cake</background>
     <background>background\bg_castle</background>
     <background>background\bg_choco</background>
@@ -57,8 +55,19 @@
     <background>background\bg_sand</background>
     <background>background\bg_snow</background>
     <background>background\bg_tundra</background>
-    <background>background\bg_items1</background>
-    <background>background\bg_items2</background>
+    <background>background\bg_clouds</background>
+    <backgrounds name="bg_wallpaper">
+      <background>background\bg_shroom_wallpaper</background>
+      <background>background\bg_desert_wallpaper</background>
+      <background>background\bg_castle_wallpaper</background>
+      <background>background\bg_grasslands_wallpaper</background>
+    </backgrounds>
+    <backgrounds name="bg_spritesheet">
+      <background>background\bg_spritesheet1</background>
+      <background>background\bg_items1</background>
+      <background>background\bg_items2</background>
+      <background>background\bg_shroom_spritesheet</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -78,6 +87,7 @@
     <objects name="obj_player">
       <object>objects\obj_player_dead</object>
       <object>objects\obj_player_char</object>
+      <object>objects\obj_player_char_grav</object>
     </objects>
     <objects name="obj_system">
       <object>objects\obj_collision</object>
@@ -120,9 +130,10 @@
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_test_lvl_1</room>
+    <room>rooms\rm_test_lvl_2</room>
     <room>rooms\rm_gameover</room>
-    <room>rooms\rm_demo</room>
     <room>rooms\rm_template</room>
+    <room>rooms\rm_demo</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
