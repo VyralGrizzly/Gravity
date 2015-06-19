@@ -158,11 +158,10 @@
     <instance objName="obj_collision_enemy" x="13335" y="70" name="inst_AD034B5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_slime_pink_up" x="13825" y="105" name="inst_21545693" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_slime_pink_up" x="13405" y="105" name="inst_132100E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stone_platform_h" x="420" y="525" name="inst_7D19AA3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stone_platform_v" x="840" y="210" name="inst_D10ACE7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stone_platform_h" x="210" y="210" name="inst_A8BF49B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_platform_h" x="420" y="525" name="inst_7D19AA3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_platform_v" x="840" y="210" name="inst_D10ACE7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_platform_h" x="210" y="210" name="inst_A8BF49B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dead" x="420" y="35" name="inst_0FF80C23" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_star" x="630" y="525" name="inst_ED4BFD50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_char_grav" x="140" y="525" name="inst_0421409B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>

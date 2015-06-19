@@ -42,6 +42,9 @@
     <sprites name="sp_environment">
       <sprite>sprites\sp_stone_platform</sprite>
     </sprites>
+    <sprites name="sp_story">
+      <sprite>sprites\sp_story_green</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_black</background>
@@ -82,12 +85,14 @@
     <font>fonts\fnt_arial</font>
     <font>fonts\fnt_gameover</font>
     <font>fonts\fnt_kenvector</font>
+    <font>fonts\fnt_kenvector_small</font>
   </fonts>
   <objects name="objects">
     <objects name="obj_player">
       <object>objects\obj_player_dead</object>
       <object>objects\obj_player_char</object>
       <object>objects\obj_player_char_grav</object>
+      <object>objects\obj_player_standing</object>
     </objects>
     <objects name="obj_system">
       <object>objects\obj_collision</object>
@@ -123,17 +128,22 @@
       <object>objects\obj_star</object>
     </objects>
     <objects name="obj_environment">
-      <object>objects\obj_stone_platform_h</object>
-      <object>objects\obj_stone_platform_v</object>
+      <object>objects\obj_platform_h</object>
+      <object>objects\obj_platform_v</object>
+    </objects>
+    <objects name="obj_story">
+      <object>objects\obj_story_green</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_test_lvl_1</room>
-    <room>rooms\rm_test_lvl_2</room>
+    <room>rooms\rm_lvl_1</room>
+    <room>rooms\rm_lvl_2</room>
+    <room>rooms\rm_lvl_3</room>
+    <room>rooms\rm_story_test</room>
     <room>rooms\rm_gameover</room>
-    <room>rooms\rm_template</room>
     <room>rooms\rm_demo</room>
+    <room>rooms\rm_template</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
