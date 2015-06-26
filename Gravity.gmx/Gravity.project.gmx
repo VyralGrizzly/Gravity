@@ -30,6 +30,14 @@
       <sprite>sprites\sp_frog_leap</sprite>
       <sprite>sprites\sp_snake_slime</sprite>
       <sprite>sprites\sp_spider</sprite>
+      <sprite>sprites\sp_barnacle</sprite>
+      <sprite>sprites\sp_bat</sprite>
+      <sprite>sprites\sp_bat_hang</sprite>
+      <sprite>sprites\sp_bee</sprite>
+      <sprite>sprites\sp_ghost</sprite>
+      <sprite>sprites\sp_cog</sprite>
+      <sprite>sprites\sp_cog_half</sprite>
+      <sprite>sprites\sp_bullet_red</sprite>
     </sprites>
     <sprites name="sp_menu">
       <sprite>sprites\sp_arrow</sprite>
@@ -107,6 +115,7 @@
     <objects name="obj_enemies">
       <objects name="obj_fly">
         <object>objects\obj_fly_400_right</object>
+        <object>objects\obj_fly_900_right</object>
         <object>objects\obj_fly_200_right</object>
         <object>objects\obj_fly_200_left</object>
         <object>objects\obj_fly_400_left</object>
