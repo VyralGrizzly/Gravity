@@ -52,6 +52,7 @@
     </sprites>
     <sprites name="sp_story">
       <sprite>sprites\sp_story_green</sprite>
+      <sprite>sprites\sp_textbox_glass</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -142,6 +143,7 @@
     </objects>
     <objects name="obj_story">
       <object>objects\obj_story_green</object>
+      <object>objects\obj_textbox_glass</object>
     </objects>
   </objects>
   <rooms name="rooms">

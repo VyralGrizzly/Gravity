@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>//printing initial dialoge
 
-sc_text("yo,dood. you gotta flip the gravity!",.5,500,100);
+sc_text("yo,dood. you gotta flip the gravity!", .5, inst_146CA00F.x, inst_146CA00F.y-125);
 
 
 //counter used for new text boxes
