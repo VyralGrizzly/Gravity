@@ -21,6 +21,8 @@
       <sprite>sprites\sp_obj_collision_off</sprite>
       <sprite>sprites\sp_dead</sprite>
       <sprite>sprites\sp_collision_enemy</sprite>
+      <sprite>sprites\sp_chase_radius</sprite>
+      <sprite>sprites\sp_bat_trigger</sprite>
     </sprites>
     <sprites name="sp_enemies">
       <sprite>sprites\sp_slime</sprite>
@@ -36,8 +38,8 @@
       <sprite>sprites\sp_bee</sprite>
       <sprite>sprites\sp_ghost</sprite>
       <sprite>sprites\sp_cog</sprite>
-      <sprite>sprites\sp_cog_half</sprite>
       <sprite>sprites\sp_bullet_red</sprite>
+      <sprite>sprites\sp_cog_half</sprite>
     </sprites>
     <sprites name="sp_menu">
       <sprite>sprites\sp_arrow</sprite>
@@ -112,6 +114,7 @@
       <object>objects\obj_pause</object>
       <object>objects\obj_menu</object>
       <object>objects\obj_death_timer</object>
+      <object>objects\obj_chase_radius</object>
     </objects>
     <objects name="obj_enemies">
       <objects name="obj_fly">
@@ -132,6 +135,22 @@
       <object>objects\obj_frog</object>
       <object>objects\obj_snake_slime</object>
       <object>objects\obj_spider</object>
+      <objects name="obj_bullet">
+        <object>objects\obj_bullet_up</object>
+        <object>objects\obj_bullet_down</object>
+        <object>objects\obj_bullet_right</object>
+        <object>objects\obj_bullet_left</object>
+      </objects>
+      <object>objects\obj_cog</object>
+      <object>objects\obj_cog_half</object>
+      <objects name="obj_barnacle">
+        <object>objects\obj_barnacle_up</object>
+        <object>objects\obj_barnacle_down</object>
+        <object>objects\obj_barnacle_right</object>
+        <object>objects\obj_barnacle_left</object>
+      </objects>
+      <object>objects\obj_ghost</object>
+      <object>objects\obj_ghost_dead</object>
     </objects>
     <objects name="obj_items">
       <object>objects\obj_checkpoint</object>
@@ -148,13 +167,13 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_demo</room>
     <room>rooms\rm_lvl_1</room>
     <room>rooms\rm_lvl_2</room>
     <room>rooms\rm_lvl_3</room>
     <room>rooms\rm_story_test</room>
     <room>rooms\rm_lvl_4</room>
     <room>rooms\rm_gameover</room>
-    <room>rooms\rm_demo</room>
     <room>rooms\rm_template</room>
   </rooms>
   <help>

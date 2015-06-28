@@ -3,8 +3,8 @@
   <caption></caption>
   <width>20000</width>
   <height>1080</height>
-  <vsnap>35</vsnap>
-  <hsnap>35</hsnap>
+  <vsnap>1</vsnap>
+  <hsnap>1</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -168,6 +168,9 @@
     <instance objName="obj_collision" x="2310" y="525" name="inst_B3DA9388" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="2660" y="420" name="inst_4590EF1B" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="3045" y="385" name="inst_5B88A064" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ghost" x="498" y="295" name="inst_EE03B9EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_barnacle_down" x="801" y="62" name="inst_D60E3722" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cog_half" x="521" y="563" name="inst_25A27065" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_spritesheet1" x="3710" y="665" w="70" h="70" xo="432" yo="576" id="10001235" name="inst_6B8ABB1A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
