@@ -53,6 +53,16 @@
         <sprite>sprites\sp_gem_green</sprite>
         <sprite>sprites\sp_gem_red</sprite>
       </sprites>
+      <sprites name="sp_keys">
+        <sprite>sprites\sp_key_green</sprite>
+        <sprite>sprites\sp_key_blue</sprite>
+        <sprite>sprites\sp_key_yellow</sprite>
+        <sprite>sprites\sp_key_red</sprite>
+        <sprite>sprites\sp_lock_blue</sprite>
+        <sprite>sprites\sp_lock_green</sprite>
+        <sprite>sprites\sp_lock_red</sprite>
+        <sprite>sprites\sp_lock_yellow</sprite>
+      </sprites>
     </sprites>
     <sprites name="sp_environment">
       <sprite>sprites\sp_stone_platform</sprite>
@@ -164,6 +174,16 @@
         <object>objects\obj_collectible_1</object>
         <object>objects\obj_collectible_2</object>
         <object>objects\obj_collectible_3</object>
+      </objects>
+      <objects name="obj_key">
+        <object>objects\obj_key_blue</object>
+        <object>objects\obj_key_red</object>
+        <object>objects\obj_key_green</object>
+        <object>objects\obj_key_yellow</object>
+        <object>objects\obj_lock_blue</object>
+        <object>objects\obj_lock_red</object>
+        <object>objects\obj_lock_green</object>
+        <object>objects\obj_lock_yellow</object>
       </objects>
     </objects>
     <objects name="obj_environment">
