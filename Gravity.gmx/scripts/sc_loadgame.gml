@@ -12,8 +12,4 @@ if file_exists("Save.sav")
     ini_close();
     room_goto(LoadRoom);
     
-}else{
-
-// do nothing
-
 }

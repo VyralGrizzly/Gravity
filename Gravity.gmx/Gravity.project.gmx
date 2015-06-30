@@ -48,6 +48,11 @@
       <sprite>sprites\sp_checkpoint_off</sprite>
       <sprite>sprites\sp_checkpoint_on</sprite>
       <sprite>sprites\sp_star</sprite>
+      <sprites name="sp_collectibles">
+        <sprite>sprites\sp_gem_blue</sprite>
+        <sprite>sprites\sp_gem_green</sprite>
+        <sprite>sprites\sp_gem_red</sprite>
+      </sprites>
     </sprites>
     <sprites name="sp_environment">
       <sprite>sprites\sp_stone_platform</sprite>
@@ -115,6 +120,7 @@
       <object>objects\obj_menu</object>
       <object>objects\obj_death_timer</object>
       <object>objects\obj_chase_radius</object>
+      <object>objects\obj_collectibles_menu</object>
     </objects>
     <objects name="obj_enemies">
       <objects name="obj_fly">
@@ -150,11 +156,15 @@
         <object>objects\obj_barnacle_left</object>
       </objects>
       <object>objects\obj_ghost</object>
-      <object>objects\obj_ghost_dead</object>
     </objects>
     <objects name="obj_items">
       <object>objects\obj_checkpoint</object>
       <object>objects\obj_star</object>
+      <objects name="obj_collectibles">
+        <object>objects\obj_collectible_1</object>
+        <object>objects\obj_collectible_2</object>
+        <object>objects\obj_collectible_3</object>
+      </objects>
     </objects>
     <objects name="obj_environment">
       <object>objects\obj_platform_h</object>
@@ -175,6 +185,7 @@
     <room>rooms\rm_lvl_4</room>
     <room>rooms\rm_gameover</room>
     <room>rooms\rm_template</room>
+    <room>rooms\rm_collectibles</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -14,6 +14,7 @@ switch (mpos)
     
     case 2:
     {
+        room_goto(rm_collectibles)
         break;
     }
 
