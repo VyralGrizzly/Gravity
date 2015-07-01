@@ -63,6 +63,7 @@
         <sprite>sprites\sp_lock_red</sprite>
         <sprite>sprites\sp_lock_yellow</sprite>
       </sprites>
+      <sprite>sprites\sp_black_hole</sprite>
     </sprites>
     <sprites name="sp_environment">
       <sprite>sprites\sp_stone_platform</sprite>
@@ -185,6 +186,7 @@
         <object>objects\obj_lock_green</object>
         <object>objects\obj_lock_yellow</object>
       </objects>
+      <object>objects\obj_black_hole</object>
     </objects>
     <objects name="obj_environment">
       <object>objects\obj_platform_h</object>
