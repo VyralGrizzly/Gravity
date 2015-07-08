@@ -92,7 +92,7 @@
     <instance objName="obj_collision" x="11410" y="350" name="inst_B14BFE1E" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="11585" y="455" name="inst_5EA81195" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="11795" y="455" name="inst_92B367EC" locked="0" code="" scaleX="14" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collision_enemy" x="0" y="560" name="inst_49857E8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_collision_enemy" x="35" y="560" name="inst_49857E8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_enemy" x="2310" y="560" name="inst_2C89DD49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_enemy" x="3115" y="560" name="inst_BBFB7085" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_enemy" x="3570" y="560" name="inst_CF894495" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -147,7 +147,7 @@
     <instance objName="obj_dead" x="3010" y="735" name="inst_2E764CC4" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dead" x="14490" y="700" name="inst_C81A07F1" locked="0" code="" scaleX="15" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dead" x="15225" y="700" name="inst_2433F713" locked="0" code="" scaleX="45" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collision_enemy" x="0" y="35" name="inst_2B79C179" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_collision_enemy" x="35" y="35" name="inst_2B79C179" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_slime_pink_up" x="11165" y="350" name="inst_567503A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_enemy" x="10815" y="315" name="inst_CA34D7E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_enemy" x="13860" y="70" name="inst_3AE530A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -190,6 +190,7 @@
     <instance objName="obj_key_yellow" x="1470" y="35" name="inst_964B647D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_black_hole" x="455" y="315" name="inst_6B26A699" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="0" y="0" name="inst_FC355B7B" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spider_left" x="105" y="245" name="inst_4CDE58C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_spritesheet1" x="3710" y="665" w="70" h="70" xo="432" yo="576" id="10001235" name="inst_6B8ABB1A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

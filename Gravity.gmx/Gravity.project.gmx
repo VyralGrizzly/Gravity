@@ -20,6 +20,7 @@
       <sprite>sprites\sp_collision_on</sprite>
       <sprite>sprites\sp_obj_collision_off</sprite>
       <sprite>sprites\sp_dead</sprite>
+      <sprite>sprites\sp_dead_half</sprite>
       <sprite>sprites\sp_collision_enemy</sprite>
       <sprite>sprites\sp_chase_radius</sprite>
       <sprite>sprites\sp_bat_trigger</sprite>
@@ -67,6 +68,10 @@
     </sprites>
     <sprites name="sp_environment">
       <sprite>sprites\sp_stone_platform</sprite>
+      <sprites name="sp_dirt">
+        <sprite>sprites\sp_dirt_small</sprite>
+        <sprite>sprites\sp_dirt_mid</sprite>
+      </sprites>
     </sprites>
     <sprites name="sp_story">
       <sprite>sprites\sp_story_green</sprite>
@@ -132,6 +137,7 @@
       <object>objects\obj_death_timer</object>
       <object>objects\obj_chase_radius</object>
       <object>objects\obj_collectibles_menu</object>
+      <object>objects\obj_dead_half</object>
     </objects>
     <objects name="obj_enemies">
       <objects name="obj_fly">
@@ -151,7 +157,6 @@
       </objects>
       <object>objects\obj_frog</object>
       <object>objects\obj_snake_slime</object>
-      <object>objects\obj_spider</object>
       <objects name="obj_bullet">
         <object>objects\obj_bullet_up</object>
         <object>objects\obj_bullet_down</object>
@@ -167,6 +172,10 @@
         <object>objects\obj_barnacle_left</object>
       </objects>
       <object>objects\obj_ghost</object>
+      <objects name="obj_spider">
+        <object>objects\obj_spider</object>
+        <object>objects\obj_spider_left</object>
+      </objects>
     </objects>
     <objects name="obj_items">
       <object>objects\obj_checkpoint</object>
@@ -191,6 +200,8 @@
     <objects name="obj_environment">
       <object>objects\obj_platform_h</object>
       <object>objects\obj_platform_v</object>
+      <object>objects\obj_dirt_small_v</object>
+      <object>objects\obj_dirt_mid_v</object>
     </objects>
     <objects name="obj_story">
       <object>objects\obj_story_green</object>
@@ -199,15 +210,19 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_demo</room>
-    <room>rooms\rm_lvl_1</room>
-    <room>rooms\rm_lvl_2</room>
-    <room>rooms\rm_lvl_3</room>
+    <room>rooms\rm_shroom_3</room>
+    <room>rooms\rm_shroom_2</room>
+    <room>rooms\rm_shroom_1</room>
+    <room>rooms\rm_grass_1</room>
+    <room>rooms\rm_grass_2</room>
+    <room>rooms\rm_grass_3</room>
     <room>rooms\rm_story_test</room>
-    <room>rooms\rm_lvl_4</room>
-    <room>rooms\rm_gameover</room>
     <room>rooms\rm_template</room>
-    <room>rooms\rm_collectibles</room>
+    <room>rooms\rm_demo</room>
+    <rooms name="rm_system">
+      <room>rooms\rm_collectibles</room>
+      <room>rooms\rm_gameover</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

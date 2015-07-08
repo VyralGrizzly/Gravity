@@ -70,8 +70,8 @@ if ( step &gt; 0){
         //below section used to get rid of a weird glitch with player getting stuck
         if (place_meeting(x,y-3,obj_player_char)|| place_meeting(x,y+3,obj_player_char)){   
         
-            if (global.flip = 1) obj_player_char.y -= 2
-            if (global.flip = -1) obj_player_char.y += 2
+            if (global.flip = 1) obj_player_char.y -= 2;
+            if (global.flip = -1) obj_player_char.y += 2;
         
             }       
         }
@@ -86,7 +86,14 @@ if (global.flip = 1){
         
         vsp_carry = vsp;
         obj_player_char.y += vsp_carry;
-        }
+        }   
+        
+    if (place_meeting(x,y+10,obj_player_char)){   
+        
+        obj_player_char.vsp = 0;
+        obj_player_char.vsp += 3;
+        }   
+        
     }
     
 if (global.flip = -1){
@@ -97,6 +104,11 @@ if (global.flip = -1){
         obj_player_char.y += vsp_carry;
         
         }
+    if (place_meeting(x,y-10,obj_player_char)){   
+        
+        obj_player_char.vsp = 0;
+        obj_player_char.vsp -= 3;
+        }      
     }
 </string>
           </argument>
