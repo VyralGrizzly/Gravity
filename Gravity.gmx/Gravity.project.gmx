@@ -72,6 +72,8 @@
         <sprite>sprites\sp_dirt_small</sprite>
         <sprite>sprites\sp_dirt_mid</sprite>
       </sprites>
+      <sprite>sprites\sp_sandstorm</sprite>
+      <sprite>sprites\sp_sand_small</sprite>
     </sprites>
     <sprites name="sp_story">
       <sprite>sprites\sp_story_green</sprite>
@@ -199,9 +201,11 @@
     </objects>
     <objects name="obj_environment">
       <object>objects\obj_platform_h</object>
+      <object>objects\obj_sand_small_h</object>
       <object>objects\obj_platform_v</object>
       <object>objects\obj_dirt_small_v</object>
       <object>objects\obj_dirt_mid_v</object>
+      <object>objects\obj_sand_storm</object>
     </objects>
     <objects name="obj_story">
       <object>objects\obj_story_green</object>
@@ -210,13 +214,14 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_shroom_3</room>
-    <room>rooms\rm_shroom_2</room>
-    <room>rooms\rm_shroom_1</room>
+    <room>rooms\rm_sand_1</room>
     <room>rooms\rm_grass_1</room>
     <room>rooms\rm_grass_2</room>
     <room>rooms\rm_grass_3</room>
     <room>rooms\rm_story_test</room>
+    <room>rooms\rm_shroom_3</room>
+    <room>rooms\rm_shroom_2</room>
+    <room>rooms\rm_shroom_1</room>
     <room>rooms\rm_template</room>
     <room>rooms\rm_demo</room>
     <rooms name="rm_system">
