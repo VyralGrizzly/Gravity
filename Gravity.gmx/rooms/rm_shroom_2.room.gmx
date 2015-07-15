@@ -10,7 +10,9 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>sc_savegame();</code>
+  <code>global.checkpointR = 0;
+
+sc_savegame();</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -58,7 +60,7 @@
     <instance objName="obj_collision" x="2275" y="770" name="inst_A6E74B87" locked="0" code="" scaleX="10" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="2625" y="840" name="inst_A124FEA5" locked="0" code="" scaleX="64" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="2975" y="280" name="inst_CD742F45" locked="0" code="" scaleX="12" scaleY="16" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collision" x="2345" y="-35" name="inst_E53EA1E3" locked="0" code="" scaleX="49" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="obj_collision" x="2380" y="-35" name="inst_E53EA1E3" locked="0" code="" scaleX="49" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="3710" y="105" name="inst_7F6E44D3" locked="0" code="" scaleX="10" scaleY="18" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="3500" y="315" name="inst_EA531556" locked="0" code="" scaleX="6" scaleY="12" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="4375" y="630" name="inst_F31385A7" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
@@ -84,7 +86,7 @@
     <instance objName="obj_collision_enemy" x="1330" y="420" name="inst_9124395F" locked="0" code="" scaleX="1" scaleY="9" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_enemy" x="2590" y="770" name="inst_25D7335A" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_enemy" x="2240" y="700" name="inst_F8C346A1" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collision" x="1995" y="385" name="inst_CCD9A5A9" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_collision" x="2450" y="455" name="inst_CCD9A5A9" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="560" y="455" name="inst_B3716974" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dead" x="2100" y="-35" name="inst_3EA03C74" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_checkpoint" x="4725" y="315" name="inst_AFC8D039" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -105,11 +107,12 @@
     <instance objName="obj_collision" x="6090" y="35" name="inst_E4F67E68" locked="0" code="" scaleX="12" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="6195" y="350" name="inst_4AABD0CE" locked="0" code="" scaleX="8" scaleY="18" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="4830" y="-35" name="inst_8440B34D" locked="0" code="" scaleX="30" scaleY="6" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collision" x="6440" y="105" name="inst_7AAE4943" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="6440" y="140" name="inst_33779346" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_dead_half" x="5740" y="315" name="inst_68E537E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dead_half" x="4900" y="315" name="inst_859345DE" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dead_half" x="5740" y="525" name="inst_C3B45989" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sound_theme2" x="70" y="280" name="inst_6883FDB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_collision" x="2380" y="105" name="inst_601E709F" locked="0" code="" scaleX="8" scaleY="4" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_dirt" x="0" y="840" w="70" h="70" xo="0" yo="350" id="10004439" name="inst_761F8F25" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -410,9 +413,8 @@
     <tile bgName="bg_dirt" x="2975" y="980" w="70" h="70" xo="0" yo="350" id="10004898" name="inst_3CC3DB93" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="2975" y="280" w="70" h="70" xo="140" yo="350" id="10004900" name="inst_676837C5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="2030" y="175" w="70" h="70" xo="70" yo="140" id="10004901" name="inst_5C8FCC47" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dirt" x="2450" y="35" w="70" h="70" xo="0" yo="420" id="10004905" name="inst_B0008010" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dirt" x="2520" y="35" w="70" h="70" xo="0" yo="420" id="10004906" name="inst_70B030CC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dirt" x="2590" y="35" w="70" h="70" xo="0" yo="420" id="10004907" name="inst_79B6A9E9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dirt" x="2450" y="175" w="70" h="70" xo="0" yo="420" id="10004905" name="inst_B0008010" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dirt" x="2520" y="175" w="70" h="70" xo="0" yo="420" id="10004906" name="inst_70B030CC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="2660" y="35" w="70" h="70" xo="0" yo="420" id="10004908" name="inst_D22DB164" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="2730" y="35" w="70" h="70" xo="0" yo="420" id="10004909" name="inst_485F3C3E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="2800" y="35" w="70" h="70" xo="0" yo="420" id="10004910" name="inst_D76D311B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -686,8 +688,8 @@
     <tile bgName="bg_shroom_spritesheet" x="4130" y="770" w="72" h="72" xo="360" yo="360" id="10005242" name="inst_C963070F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_shroom_spritesheet" x="4095" y="770" w="72" h="72" xo="72" yo="432" id="10005243" name="inst_62E34D9C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_shroom_spritesheet" x="2800" y="770" w="72" h="72" xo="216" yo="432" id="10005246" name="inst_B509596E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_shroom_spritesheet" x="2065" y="630" w="72" h="72" xo="360" yo="288" id="10005248" name="inst_5052279C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_shroom_spritesheet" x="2065" y="420" w="72" h="72" xo="216" yo="360" id="10005254" name="inst_B73A8AA3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_shroom_spritesheet" x="2520" y="700" w="72" h="72" xo="360" yo="288" id="10005248" name="inst_5052279C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_shroom_spritesheet" x="2520" y="490" w="72" h="72" xo="216" yo="360" id="10005254" name="inst_B73A8AA3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_shroom_spritesheet" x="525" y="630" w="72" h="72" xo="360" yo="360" id="10005257" name="inst_D6B148C5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_shroom_spritesheet" x="700" y="630" w="72" h="72" xo="432" yo="360" id="10005258" name="inst_E3551723" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_shroom_spritesheet" x="630" y="630" w="72" h="72" xo="432" yo="288" id="10005259" name="inst_405F96D7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -701,12 +703,12 @@
     <tile bgName="bg_dirt" x="3185" y="280" w="70" h="70" xo="280" yo="210" id="10005282" name="inst_0EF20F49" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_shroom_spritesheet" x="3185" y="210" w="72" h="72" xo="144" yo="432" id="10005283" name="inst_F4593042" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_shroom_spritesheet" x="630" y="560" w="72" h="72" xo="72" yo="360" id="10005286" name="inst_3FEA3B68" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_shroom_spritesheet" x="2065" y="560" w="72" h="72" xo="288" yo="360" id="10005289" name="inst_19C49630" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_shroom_spritesheet" x="2065" y="490" w="72" h="72" xo="288" yo="360" id="10005290" name="inst_0CB6CD06" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_shroom_spritesheet" x="2520" y="630" w="72" h="72" xo="288" yo="360" id="10005289" name="inst_19C49630" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_shroom_spritesheet" x="2520" y="560" w="72" h="72" xo="288" yo="360" id="10005290" name="inst_0CB6CD06" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="2030" y="105" w="70" h="70" xo="140" yo="0" id="10005315" name="inst_456E6874" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="2030" y="35" w="70" h="70" xo="140" yo="0" id="10005317" name="inst_D71C05F6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="2030" y="-35" w="70" h="70" xo="140" yo="0" id="10005318" name="inst_867A2E75" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dirt" x="2380" y="35" w="70" h="70" xo="70" yo="210" id="10005319" name="inst_5464CA1F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dirt" x="2380" y="175" w="70" h="70" xo="70" yo="210" id="10005319" name="inst_5464CA1F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="2380" y="-35" w="70" h="70" xo="140" yo="70" id="10005320" name="inst_F4E2DB47" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="4830" y="105" w="70" h="70" xo="0" yo="420" id="10005321" name="inst_0F1220F5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="4900" y="105" w="70" h="70" xo="0" yo="420" id="10005322" name="inst_F5D48CDC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -950,17 +952,26 @@
     <tile bgName="bg_dirt" x="6265" y="980" w="70" h="70" xo="0" yo="350" id="10005687" name="inst_92A8DF89" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="6335" y="980" w="70" h="70" xo="0" yo="350" id="10005688" name="inst_37C8088E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="6405" y="980" w="70" h="70" xo="0" yo="350" id="10005689" name="inst_D8B78542" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dirt" x="6440" y="70" w="70" h="70" xo="0" yo="420" id="10005690" name="inst_736BF5C3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dirt" x="6440" y="0" w="70" h="70" xo="0" yo="350" id="10005691" name="inst_4939A728" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dirt" x="6440" y="-35" w="70" h="70" xo="0" yo="350" id="10005691" name="inst_4939A728" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="6090" y="-35" w="70" h="70" xo="0" yo="350" id="10005693" name="inst_CBAB4D06" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="6160" y="-35" w="70" h="70" xo="0" yo="350" id="10005694" name="inst_6DE573AE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="6230" y="35" w="70" h="70" xo="0" yo="420" id="10005695" name="inst_52505A98" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="6230" y="-35" w="70" h="70" xo="0" yo="350" id="10005696" name="inst_2DB92BA4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="6020" y="35" w="70" h="70" xo="70" yo="0" id="10007192" name="inst_08707DEE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dirt" x="6020" y="-35" w="70" h="70" xo="0" yo="350" id="10007193" name="inst_C50B5530" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_shroom_spritesheet" x="1995" y="385" w="72" h="72" xo="144" yo="144" id="10005251" name="inst_55B93193" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_shroom_spritesheet" x="2135" y="385" w="72" h="72" xo="360" yo="144" id="10005253" name="inst_5955E495" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_shroom_spritesheet" x="2065" y="385" w="72" h="72" xo="288" yo="144" id="10005256" name="inst_5A87FE02" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dirt" x="2380" y="35" w="70" h="70" xo="140" yo="70" id="10007923" name="inst_9D8CA0EF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dirt" x="2380" y="105" w="70" h="70" xo="140" yo="70" id="10007924" name="inst_455F6DFB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dirt" x="2590" y="105" w="70" h="70" xo="140" yo="0" id="10007925" name="inst_95A4F26C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dirt" x="2590" y="175" w="70" h="70" xo="70" yo="140" id="10007926" name="inst_EC5010E9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dirt" x="2590" y="35" w="70" h="70" xo="70" yo="0" id="10007927" name="inst_6B8DF714" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dirt" x="2450" y="35" w="70" h="70" xo="0" yo="350" id="10007928" name="inst_8F2EE724" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dirt" x="2520" y="35" w="70" h="70" xo="0" yo="350" id="10007929" name="inst_FFC8729D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dirt" x="2450" y="105" w="70" h="70" xo="0" yo="350" id="10007930" name="inst_0958EE8F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dirt" x="2520" y="105" w="70" h="70" xo="0" yo="350" id="10007931" name="inst_7E331499" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dirt" x="6440" y="35" w="70" h="70" xo="0" yo="420" id="10007932" name="inst_8AD0A4C3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_shroom_spritesheet" x="2450" y="455" w="72" h="72" xo="144" yo="144" id="10005251" name="inst_55B93193" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_shroom_spritesheet" x="2590" y="455" w="72" h="72" xo="360" yo="144" id="10005253" name="inst_5955E495" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_shroom_spritesheet" x="2520" y="455" w="72" h="72" xo="288" yo="144" id="10005256" name="inst_5A87FE02" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_shroom_spritesheet" x="630" y="455" w="72" h="72" xo="216" yo="72" id="10005273" name="inst_EECA8865" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_shroom_spritesheet" x="700" y="455" w="72" h="72" xo="72" yo="144" id="10005275" name="inst_F3C86319" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_shroom_spritesheet" x="560" y="455" w="72" h="72" xo="72" yo="72" id="10005288" name="inst_7452E795" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

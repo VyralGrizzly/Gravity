@@ -72,7 +72,7 @@ if collected = 1{
     
     ini_close();
     
-    
+    audio_play_sound(sound_pickup,0,false);
     
     instance_destroy();
 

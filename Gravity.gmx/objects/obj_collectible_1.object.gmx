@@ -78,6 +78,8 @@ if(place_meeting(x,y,obj_player_char)){
     ini_close();
     
     
+    audio_play_sound(sound_pickup,0,false);
+    
     
     instance_destroy();
 

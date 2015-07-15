@@ -74,7 +74,9 @@ instance_create(x,y,obj_player_dead);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.checkpointR != 0)
+            <string>audio_resume_all();
+
+if (global.checkpointR != 0)
 {
 
     room_goto(global.checkpointR);

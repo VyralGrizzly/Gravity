@@ -5,7 +5,17 @@
   </Configs>
   <datafiles number="1" name="datafiles"/>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound_jump</sound>
+    <sound>sound\sound_win</sound>
+    <sound>sound\sound_hit</sound>
+    <sound>sound\sound_pickup</sound>
+    <sound>sound\sound_dead</sound>
+    <sound>sound\sound_theme1</sound>
+    <sound>sound\sound_theme2</sound>
+    <sound>sound\sound_theme3</sound>
+    <sound>sound\sound_flip</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="sp_player">
       <sprites name="sp_player_char">
@@ -74,11 +84,15 @@
       </sprites>
       <sprite>sprites\sp_sandstorm</sprite>
       <sprite>sprites\sp_sand_small</sprite>
+      <sprite>sprites\sp_water_top</sprite>
+      <sprite>sprites\sp_water</sprite>
     </sprites>
     <sprites name="sp_story">
       <sprite>sprites\sp_story_green</sprite>
       <sprite>sprites\sp_textbox_glass</sprite>
     </sprites>
+    <sprite>sprites\sp_controls</sprite>
+    <sprite>sprites\sp_flip</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_black</background>
@@ -90,6 +104,7 @@
     <background>background\bg_metal</background>
     <background>background\bg_purple_ground</background>
     <background>background\bg_sand</background>
+    <background>background\bg_sand2</background>
     <background>background\bg_snow</background>
     <background>background\bg_tundra</background>
     <background>background\bg_clouds</background>
@@ -140,6 +155,10 @@
       <object>objects\obj_chase_radius</object>
       <object>objects\obj_collectibles_menu</object>
       <object>objects\obj_dead_half</object>
+      <object>objects\obj_sound_theme1</object>
+      <object>objects\obj_sound_theme2</object>
+      <object>objects\obj_sound_theme3</object>
+      <object>objects\obj_nextlevel</object>
     </objects>
     <objects name="obj_enemies">
       <objects name="obj_fly">
@@ -206,27 +225,32 @@
       <object>objects\obj_dirt_small_v</object>
       <object>objects\obj_dirt_mid_v</object>
       <object>objects\obj_sand_storm</object>
+      <object>objects\obj_water_top</object>
+      <object>objects\obj_water</object>
     </objects>
     <objects name="obj_story">
       <object>objects\obj_story_green</object>
       <object>objects\obj_textbox_glass</object>
+      <object>objects\obj_controls</object>
+      <object>objects\obj_flip</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_sand_1</room>
     <room>rooms\rm_grass_1</room>
     <room>rooms\rm_grass_2</room>
     <room>rooms\rm_grass_3</room>
-    <room>rooms\rm_story_test</room>
-    <room>rooms\rm_shroom_3</room>
-    <room>rooms\rm_shroom_2</room>
     <room>rooms\rm_shroom_1</room>
+    <room>rooms\rm_shroom_2</room>
+    <room>rooms\rm_shroom_3</room>
+    <room>rooms\rm_sand_1</room>
+    <room>rooms\rm_gameover</room>
+    <room>rooms\rm_sand_2</room>
     <room>rooms\rm_template</room>
     <room>rooms\rm_demo</room>
+    <room>rooms\rm_story_test</room>
     <rooms name="rm_system">
       <room>rooms\rm_collectibles</room>
-      <room>rooms\rm_gameover</room>
     </rooms>
   </rooms>
   <help>

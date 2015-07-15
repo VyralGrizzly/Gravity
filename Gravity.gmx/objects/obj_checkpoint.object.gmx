@@ -66,6 +66,9 @@ if (global.checkpointR == room)
 {
        if (global.checkpoint == id) sprite_index = sp_checkpoint_on; else sprite_index = sp_checkpoint_off;
        
+       
+       
+       
 }
 </string>
           </argument>
