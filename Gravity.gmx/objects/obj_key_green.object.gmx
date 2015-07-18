@@ -28,6 +28,7 @@
             <string>if(place_meeting(x,y,obj_player_char)){
 
     instance_deactivate_object(obj_lock_green);
+    audio_play_sound(sound_pickup,0,false);
     instance_destroy();
 
     }

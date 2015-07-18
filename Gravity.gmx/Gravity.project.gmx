@@ -86,6 +86,7 @@
       <sprite>sprites\sp_sand_small</sprite>
       <sprite>sprites\sp_water_top</sprite>
       <sprite>sprites\sp_water</sprite>
+      <sprite>sprites\sp_grass_small</sprite>
     </sprites>
     <sprites name="sp_story">
       <sprite>sprites\sp_story_green</sprite>
@@ -113,12 +114,14 @@
       <background>background\bg_desert_wallpaper</background>
       <background>background\bg_castle_wallpaper</background>
       <background>background\bg_grasslands_wallpaper</background>
+      <background>background\bg_wallpaper_dirt</background>
     </backgrounds>
     <backgrounds name="bg_spritesheet">
       <background>background\bg_spritesheet1</background>
       <background>background\bg_items1</background>
       <background>background\bg_items2</background>
       <background>background\bg_shroom_spritesheet</background>
+      <background>background\bg_spikes</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
@@ -219,12 +222,18 @@
       <object>objects\obj_black_hole</object>
     </objects>
     <objects name="obj_environment">
-      <object>objects\obj_platform_h</object>
-      <object>objects\obj_sand_small_h</object>
       <object>objects\obj_platform_v</object>
+      <object>objects\obj_platform_h</object>
+      <object>objects\obj_grass_small_h_right_10</object>
+      <object>objects\obj_grass_small_h_right_20</object>
+      <object>objects\obj_grass_small_h_left_10</object>
+      <object>objects\obj_grass_small_v_up_10</object>
+      <object>objects\obj_grass_small_v_down_10</object>
+      <object>objects\obj_grass_small_v_down_18</object>
       <object>objects\obj_dirt_small_v</object>
       <object>objects\obj_dirt_mid_v</object>
       <object>objects\obj_sand_storm</object>
+      <object>objects\obj_sand_small_h</object>
       <object>objects\obj_water_top</object>
       <object>objects\obj_water</object>
     </objects>
@@ -237,9 +246,11 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_grass_5</room>
     <room>rooms\rm_grass_1</room>
     <room>rooms\rm_grass_2</room>
     <room>rooms\rm_grass_3</room>
+    <room>rooms\rm_grass_4</room>
     <room>rooms\rm_shroom_1</room>
     <room>rooms\rm_shroom_2</room>
     <room>rooms\rm_shroom_3</room>

@@ -149,33 +149,84 @@ global.move = key_left + key_right;
 hsp = global.move * movespeed;
 if (vsp &lt; 30 &amp;&amp; vsp &gt; -30) vsp += grav;
 
+//flip = 1
 
-if (place_meeting(x,y+2,obj_collision)|| place_meeting(x,y-2,obj_collision))
-{
-    if (global.flip = 1)
-    {   
-        if (key_jump) { vsp = -jumpspeed audio_play_sound(sound_jump, 0, false);};
-    }
-    
-    if (global.flip = -1)   
-    {
-        if (key_jump) { vsp = jumpspeed audio_play_sound(sound_jump, 0, false); };     
-    }
-    
+
+if (global.flip = 1 &amp;&amp; place_meeting(x,y+3,obj_collision)){
+     
+    if (key_jump) { vsp = -jumpspeed audio_play_sound(sound_jump, 0, false);};
+   
     if (key_grav = 1)
     {
         global.flip = global.flip * (-1);
         grav = grav * (-1);
-        
-        
-        if (global.flip = 1) vsp = 5;
-        if (global.flip = -1) vsp = -5;
+                
+        vsp = -5;
         
         image_yscale = image_yscale * (-1);
         
         audio_play_sound(sound_flip, 0 , false);
     }
 }
+
+//flip = -1
+
+if (global.flip = -1 &amp;&amp; place_meeting(x,y-3,obj_collision)){
+    
+    if (key_jump) { vsp = jumpspeed audio_play_sound(sound_jump, 0, false);};
+   
+    if (key_grav = 1)
+    {
+        global.flip = global.flip * (-1);
+        grav = grav * (-1);
+                
+        vsp = 5;
+        
+        image_yscale = image_yscale * (-1);
+        
+        audio_play_sound(sound_flip, 0 , false);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+//if (place_meeting(x,y+5,obj_collision)|| place_meeting(x,y-5,obj_collision))
+//{
+//    if (global.flip = 1)
+//    {   
+//        if (key_jump) { vsp = -jumpspeed audio_play_sound(sound_jump, 0, false);};
+//    }
+ //   
+//    if (global.flip = -1)   
+ //   {
+ //       if (key_jump) { vsp = jumpspeed audio_play_sound(sound_jump, 0, false); };     
+ //   }
+ //   
+ //   if (key_grav = 1)
+  //  {
+   //     global.flip = global.flip * (-1);
+    //    grav = grav * (-1);
+        
+        
+      //  if (global.flip = 1) vsp = 5;
+       // if (global.flip = -1) vsp = -5;
+        
+        //image_yscale = image_yscale * (-1);
+        
+        //audio_play_sound(sound_flip, 0 , false);
+    //}
+//}
+
+
+
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,obj_collision))

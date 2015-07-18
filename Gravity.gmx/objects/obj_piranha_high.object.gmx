@@ -75,7 +75,7 @@ jump = false;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>300</string>
+            <string>120</string>
           </argument>
           <argument>
             <kind>4</kind>

@@ -115,7 +115,7 @@ sc_savegame();</code>
     <instance objName="obj_spider_left" x="2940" y="490" name="inst_62662F7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_char_grav" x="140" y="595" name="inst_3839C787" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_checkpoint" x="3850" y="420" name="inst_F97BF310" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_checkpoint" x="2415" y="350" name="inst_7BFD936A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_checkpoint" x="2310" y="350" name="inst_7BFD936A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_checkpoint" x="6545" y="700" name="inst_8AF2BB16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dead_half" x="4165" y="420" name="inst_67BEBFD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dead_half" x="3955" y="420" name="inst_D07733B8" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
