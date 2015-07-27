@@ -73,16 +73,16 @@ sc_savegame();</code>
     <instance objName="obj_collision" x="70" y="-35" name="inst_C931BB26" locked="0" code="" scaleX="20" scaleY="11" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="70" y="700" name="inst_D0F76FE9" locked="0" code="" scaleX="26" scaleY="11" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="1260" y="770" name="inst_04E472C8" locked="0" code="" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collision" x="1085" y="0" name="inst_C2DA0E5B" locked="0" code="" scaleX="36" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collision" x="1995" y="280" name="inst_14A231EA" locked="0" code="" scaleX="10" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collision" x="2135" y="420" name="inst_652630F1" locked="0" code="" scaleX="6" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_collision" x="1085" y="0" name="inst_C2DA0E5B" locked="0" code="" scaleX="34" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="obj_collision" x="1995" y="280" name="inst_14A231EA" locked="0" code="" scaleX="8" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="obj_collision" x="2135" y="420" name="inst_652630F1" locked="0" code="" scaleX="4" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="1960" y="770" name="inst_5D3A0939" locked="0" code="" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="1540" y="385" name="inst_C1130D1E" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="980" y="910" name="inst_4EE327E0" locked="0" code="" scaleX="42" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="2450" y="910" name="inst_F9CD40AB" locked="0" code="" scaleX="74" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collision" x="2625" y="-35" name="inst_5BB801A8" locked="0" code="" scaleX="48" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_collision" x="2695" y="-35" name="inst_5BB801A8" locked="0" code="" scaleX="46" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="3080" y="840" name="inst_8EE875EB" locked="0" code="" scaleX="4" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collision" x="2625" y="315" name="inst_8910763C" locked="0" code="" scaleX="10" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="obj_collision" x="2695" y="315" name="inst_8910763C" locked="0" code="" scaleX="8" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="2975" y="315" name="inst_AE8B72C4" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="3955" y="315" name="inst_E455D9DE" locked="0" code="" scaleX="10" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="4025" y="525" name="inst_2BBDBC53" locked="0" code="" scaleX="8" scaleY="4" colour="4294967295" rotation="0"/>
@@ -103,9 +103,11 @@ sc_savegame();</code>
     <instance objName="obj_slime_pink" x="945" y="665" name="inst_64A82411" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sound_theme3" x="210" y="490" name="inst_2A4DE22C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dead" x="770" y="0" name="inst_AF2D3D9F" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_dead" x="2345" y="0" name="inst_26A7861D" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dead" x="2275" y="0" name="inst_26A7861D" locked="0" code="" scaleX="12" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dead" x="4305" y="0" name="inst_87E75548" locked="0" code="" scaleX="20" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="2450" y="560" name="inst_744A08FC" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dead" x="2415" y="570" name="inst_7E23D3D0" locked="0" code="" scaleX="1" scaleY="1.42857146263123" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dead" x="2520" y="570" name="inst_1463380E" locked="0" code="" scaleX="1" scaleY="1.42857146263123" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_sand" x="70" y="700" w="70" h="70" xo="280" yo="140" id="10007200" name="inst_AD78152A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -165,16 +167,15 @@ sc_savegame();</code>
     <tile bgName="bg_sand" x="2310" y="910" w="70" h="70" xo="280" yo="140" id="10007285" name="inst_47ED77B9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2380" y="910" w="70" h="70" xo="280" yo="140" id="10007286" name="inst_2E2974ED" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2450" y="910" w="70" h="70" xo="280" yo="140" id="10007287" name="inst_2C1A8B70" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2695" y="455" w="70" h="70" xo="0" yo="350" id="10007301" name="inst_15884474" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2625" y="455" w="70" h="70" xo="70" yo="140" id="10007302" name="inst_62E4DFF0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2625" y="385" w="70" h="70" xo="140" yo="0" id="10007303" name="inst_863C387C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2625" y="105" w="70" h="70" xo="140" yo="0" id="10007305" name="inst_C1C18DDD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2625" y="175" w="70" h="70" xo="140" yo="0" id="10007306" name="inst_79230E0A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2625" y="245" w="70" h="70" xo="140" yo="0" id="10007307" name="inst_CF44F7EB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2625" y="315" w="70" h="70" xo="140" yo="0" id="10007308" name="inst_85096AFF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2625" y="35" w="70" h="70" xo="140" yo="0" id="10007310" name="inst_82966299" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2625" y="-35" w="70" h="70" xo="140" yo="0" id="10007311" name="inst_85B0691E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2275" y="0" w="70" h="70" xo="70" yo="420" id="10007312" name="inst_7BF42F1F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand" x="2695" y="455" w="70" h="70" xo="70" yo="140" id="10007302" name="inst_62E4DFF0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand" x="2695" y="385" w="70" h="70" xo="140" yo="0" id="10007303" name="inst_863C387C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand" x="2695" y="105" w="70" h="70" xo="140" yo="0" id="10007305" name="inst_C1C18DDD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand" x="2695" y="175" w="70" h="70" xo="140" yo="0" id="10007306" name="inst_79230E0A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand" x="2695" y="245" w="70" h="70" xo="140" yo="0" id="10007307" name="inst_CF44F7EB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand" x="2695" y="315" w="70" h="70" xo="140" yo="0" id="10007308" name="inst_85096AFF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand" x="2695" y="35" w="70" h="70" xo="140" yo="0" id="10007310" name="inst_82966299" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand" x="2695" y="-35" w="70" h="70" xo="140" yo="0" id="10007311" name="inst_85B0691E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand" x="2205" y="0" w="70" h="70" xo="70" yo="420" id="10007312" name="inst_7BF42F1F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2520" y="910" w="70" h="70" xo="280" yo="140" id="10007314" name="inst_A1213DEF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2590" y="910" w="70" h="70" xo="280" yo="140" id="10007315" name="inst_C0C32514" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2660" y="910" w="70" h="70" xo="280" yo="140" id="10007316" name="inst_4775FAEE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -427,17 +428,13 @@ sc_savegame();</code>
     <tile bgName="bg_sand" x="4025" y="245" w="70" h="70" xo="0" yo="280" id="10007576" name="inst_54407FA2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="4095" y="245" w="70" h="70" xo="0" yo="280" id="10007577" name="inst_39E2C522" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="4165" y="245" w="70" h="70" xo="0" yo="280" id="10007578" name="inst_846D6DAB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2695" y="245" w="70" h="70" xo="0" yo="280" id="10007579" name="inst_9DA02600" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2765" y="245" w="70" h="70" xo="0" yo="280" id="10007580" name="inst_62C5EC80" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2835" y="245" w="70" h="70" xo="0" yo="280" id="10007581" name="inst_C0CFCA80" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2905" y="245" w="70" h="70" xo="0" yo="280" id="10007582" name="inst_94AED6F0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2695" y="315" w="70" h="70" xo="0" yo="280" id="10007583" name="inst_5036CFDC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2765" y="315" w="70" h="70" xo="0" yo="280" id="10007584" name="inst_ECF6426E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2835" y="315" w="70" h="70" xo="0" yo="280" id="10007585" name="inst_53BAE48A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2695" y="385" w="70" h="70" xo="0" yo="280" id="10007586" name="inst_93FAFFFB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2765" y="385" w="70" h="70" xo="0" yo="280" id="10007587" name="inst_F9ABC856" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2835" y="385" w="70" h="70" xo="0" yo="280" id="10007588" name="inst_2415272D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2695" y="175" w="70" h="70" xo="0" yo="280" id="10007589" name="inst_B34D420A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2765" y="175" w="70" h="70" xo="0" yo="280" id="10007590" name="inst_FE1C7E70" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2835" y="175" w="70" h="70" xo="0" yo="280" id="10007591" name="inst_B36BA2AD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2905" y="175" w="70" h="70" xo="0" yo="280" id="10007592" name="inst_845F0DE7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -460,7 +457,6 @@ sc_savegame();</code>
     <tile bgName="bg_sand" x="4165" y="210" w="70" h="70" xo="0" yo="280" id="10007610" name="inst_C43E8A63" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="4165" y="175" w="70" h="70" xo="0" yo="280" id="10007611" name="inst_3D67EEBA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="4095" y="175" w="70" h="70" xo="0" yo="280" id="10007612" name="inst_1E489F6B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2695" y="105" w="70" h="70" xo="0" yo="280" id="10007613" name="inst_E87E1158" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2765" y="105" w="70" h="70" xo="0" yo="280" id="10007614" name="inst_D36E9A2E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2835" y="105" w="70" h="70" xo="0" yo="280" id="10007615" name="inst_362E0CD0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2905" y="105" w="70" h="70" xo="0" yo="280" id="10007616" name="inst_8CB259B6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -482,7 +478,6 @@ sc_savegame();</code>
     <tile bgName="bg_sand" x="4025" y="105" w="70" h="70" xo="0" yo="280" id="10007635" name="inst_CDAE9DEB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="4095" y="105" w="70" h="70" xo="0" yo="280" id="10007636" name="inst_1D8BBC1E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="4165" y="105" w="70" h="70" xo="0" yo="280" id="10007637" name="inst_0734E196" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2695" y="35" w="70" h="70" xo="0" yo="280" id="10007638" name="inst_322C0278" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2765" y="35" w="70" h="70" xo="0" yo="280" id="10007639" name="inst_9E8F43D9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2835" y="35" w="70" h="70" xo="0" yo="280" id="10007640" name="inst_C8776C97" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2905" y="35" w="70" h="70" xo="0" yo="280" id="10007641" name="inst_0DB6BBC5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -504,7 +499,6 @@ sc_savegame();</code>
     <tile bgName="bg_sand" x="4025" y="35" w="70" h="70" xo="0" yo="280" id="10007657" name="inst_6782C0F0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="4095" y="35" w="70" h="70" xo="0" yo="280" id="10007658" name="inst_13AEB831" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="4165" y="35" w="70" h="70" xo="0" yo="280" id="10007659" name="inst_A71E26EB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2695" y="-35" w="70" h="70" xo="0" yo="280" id="10007660" name="inst_C44FCF51" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2765" y="-35" w="70" h="70" xo="0" yo="280" id="10007661" name="inst_F0D098F5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2835" y="-35" w="70" h="70" xo="0" yo="280" id="10007662" name="inst_243A3B5C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2905" y="-35" w="70" h="70" xo="0" yo="280" id="10007663" name="inst_6D894AA4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -541,7 +535,6 @@ sc_savegame();</code>
     <tile bgName="bg_sand" x="1995" y="70" w="70" h="70" xo="0" yo="280" id="10007719" name="inst_11B1A2D6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2065" y="70" w="70" h="70" xo="0" yo="280" id="10007720" name="inst_A5F0EA1E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2135" y="70" w="70" h="70" xo="0" yo="280" id="10007721" name="inst_D1B8D3C0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2205" y="70" w="70" h="70" xo="0" yo="280" id="10007722" name="inst_C9D3E0A9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="1155" y="0" w="70" h="70" xo="0" yo="280" id="10007723" name="inst_89332AEC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="1225" y="0" w="70" h="70" xo="0" yo="280" id="10007724" name="inst_D10035A7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="1295" y="0" w="70" h="70" xo="0" yo="280" id="10007725" name="inst_06818358" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -557,7 +550,6 @@ sc_savegame();</code>
     <tile bgName="bg_sand" x="1995" y="0" w="70" h="70" xo="0" yo="280" id="10007735" name="inst_BBE246CE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2065" y="0" w="70" h="70" xo="0" yo="280" id="10007736" name="inst_23537669" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand" x="2135" y="0" w="70" h="70" xo="0" yo="280" id="10007737" name="inst_A4E94542" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand" x="2205" y="0" w="70" h="70" xo="0" yo="280" id="10007738" name="inst_283323D9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_items2" x="980" y="840" w="70" h="70" xo="490" yo="280" id="10007739" name="inst_A1A57840" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_items2" x="1050" y="840" w="70" h="70" xo="490" yo="280" id="10007740" name="inst_E13E9B17" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_items2" x="1120" y="840" w="70" h="70" xo="490" yo="280" id="10007741" name="inst_0AB26A43" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -649,26 +641,21 @@ sc_savegame();</code>
     <tile bgName="bg_sand2" x="1995" y="140" w="70" h="70" xo="0" yo="280" id="10007885" name="inst_3CBD2188" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand2" x="2065" y="140" w="70" h="70" xo="0" yo="280" id="10007886" name="inst_EA70FC07" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand2" x="2135" y="140" w="70" h="70" xo="0" yo="280" id="10007887" name="inst_49ACE652" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand2" x="2205" y="140" w="70" h="70" xo="0" yo="280" id="10007888" name="inst_52147137" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand2" x="2065" y="210" w="70" h="70" xo="0" yo="280" id="10007889" name="inst_F1343259" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand2" x="2135" y="210" w="70" h="70" xo="0" yo="280" id="10007890" name="inst_A6E40970" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand2" x="2205" y="210" w="70" h="70" xo="0" yo="280" id="10007891" name="inst_2A65531D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand2" x="2065" y="280" w="70" h="70" xo="0" yo="280" id="10007892" name="inst_802E5D6A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand2" x="2135" y="280" w="70" h="70" xo="0" yo="280" id="10007893" name="inst_F1FB92B2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand2" x="2205" y="280" w="70" h="70" xo="0" yo="280" id="10007894" name="inst_74D0C62F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand2" x="2205" y="350" w="70" h="70" xo="0" yo="280" id="10007896" name="inst_02A5BBF9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand2" x="1995" y="210" w="70" h="70" xo="280" yo="210" id="10007897" name="inst_4FB926F1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand2" x="2135" y="350" w="70" h="70" xo="280" yo="210" id="10007898" name="inst_923D5F57" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand2" x="1995" y="350" w="70" h="70" xo="140" yo="210" id="10007899" name="inst_7594E716" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand2" x="1995" y="280" w="70" h="70" xo="280" yo="140" id="10007901" name="inst_BAB0D681" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand2" x="2275" y="70" w="70" h="70" xo="350" yo="140" id="10007902" name="inst_5B0089D4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand2" x="2275" y="140" w="70" h="70" xo="350" yo="140" id="10007903" name="inst_8DCBEAA8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand2" x="2275" y="210" w="70" h="70" xo="350" yo="140" id="10007904" name="inst_EAFC9689" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand2" x="2275" y="280" w="70" h="70" xo="350" yo="140" id="10007905" name="inst_475A9368" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand2" x="2205" y="70" w="70" h="70" xo="350" yo="140" id="10007902" name="inst_5B0089D4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand2" x="2205" y="140" w="70" h="70" xo="350" yo="140" id="10007903" name="inst_8DCBEAA8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand2" x="2205" y="210" w="70" h="70" xo="350" yo="140" id="10007904" name="inst_EAFC9689" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand2" x="2205" y="280" w="70" h="70" xo="350" yo="140" id="10007905" name="inst_475A9368" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand2" x="2135" y="420" w="70" h="70" xo="140" yo="210" id="10007907" name="inst_B8A2D49A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand2" x="2205" y="420" w="70" h="70" xo="420" yo="210" id="10007908" name="inst_4733F020" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand2" x="2275" y="420" w="70" h="70" xo="210" yo="210" id="10007909" name="inst_B78390B8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand2" x="2275" y="350" w="70" h="70" xo="350" yo="140" id="10007910" name="inst_9DFD2E02" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand2" x="2205" y="420" w="70" h="70" xo="210" yo="210" id="10007909" name="inst_B78390B8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_sand2" x="2205" y="350" w="70" h="70" xo="350" yo="140" id="10007910" name="inst_9DFD2E02" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand2" x="1155" y="210" w="70" h="70" xo="420" yo="210" id="10007911" name="inst_CA23548B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand2" x="1225" y="210" w="70" h="70" xo="420" yo="210" id="10007912" name="inst_7AA74402" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_sand2" x="1295" y="210" w="70" h="70" xo="420" yo="210" id="10007913" name="inst_D73B5EFF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -689,7 +676,9 @@ sc_savegame();</code>
     <tile bgName="bg_items2" x="595" y="630" w="70" h="70" xo="140" yo="0" id="10007939" name="inst_C1A43900" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_items2" x="4200" y="770" w="70" h="70" xo="140" yo="70" id="10007940" name="inst_3BF25211" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_items2" x="3115" y="770" w="70" h="70" xo="140" yo="0" id="10007941" name="inst_CB57C397" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_sand2" x="2450" y="560" w="70" h="70" xo="0" yo="0" id="10007942" name="inst_5F238E3D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_spikes" x="2520" y="560" w="70" h="70" xo="0" yo="0" id="10009361" name="inst_8EC45C1E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_spikes" x="2450" y="560" w="70" h="70" xo="0" yo="0" id="10009362" name="inst_71DAFA7A" depth="1000000" locked="0" colour="4294967295" scaleX="-1" scaleY="1"/>
+    <tile bgName="bg_sand" x="2450" y="560" w="70" h="70" xo="280" yo="140" id="10009363" name="inst_0BE07D44" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

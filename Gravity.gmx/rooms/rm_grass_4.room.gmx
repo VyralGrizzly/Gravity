@@ -238,6 +238,7 @@ sc_savegame();</code>
     <instance objName="obj_water_top" x="7595" y="945" name="inst_977A083C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_water_top" x="7665" y="945" name="inst_588723AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_star" x="8715" y="350" name="inst_0C944167" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_checkpoint" x="6825" y="525" name="inst_81466EEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_clouds" x="490" y="70" w="131" h="75" xo="0" yo="0" id="10008988" name="inst_B6B49849" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -405,8 +406,6 @@ sc_savegame();</code>
     <tile bgName="bg_grass" x="5145" y="630" w="70" h="70" xo="280" yo="210" id="10008094" name="inst_C6A615A3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grass" x="5215" y="630" w="70" h="70" xo="280" yo="210" id="10008095" name="inst_C87A2C2E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grass" x="5285" y="630" w="70" h="70" xo="280" yo="210" id="10008096" name="inst_24698A59" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_grass" x="4935" y="630" w="70" h="70" xo="140" yo="350" id="10008097" name="inst_5BAAAE33" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_grass" x="4935" y="700" w="70" h="70" xo="140" yo="70" id="10008098" name="inst_85E49A20" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grass" x="5355" y="560" w="70" h="70" xo="140" yo="350" id="10008100" name="inst_C61A43FB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grass" x="5355" y="630" w="70" h="70" xo="350" yo="0" id="10008102" name="inst_21AB4E4D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grass" x="5425" y="560" w="70" h="70" xo="280" yo="210" id="10008103" name="inst_D06BF324" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -712,6 +711,8 @@ sc_savegame();</code>
     <tile bgName="bg_grass" x="4550" y="840" w="70" h="70" xo="0" yo="350" id="10008452" name="inst_3A4CB424" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grass" x="4620" y="840" w="70" h="70" xo="0" yo="350" id="10008453" name="inst_739B5D75" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grass" x="4935" y="770" w="70" h="70" xo="0" yo="350" id="10008454" name="inst_E84F9CB4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_grass" x="4935" y="630" w="70" h="70" xo="280" yo="210" id="10009364" name="inst_2FBEE891" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_grass" x="4935" y="700" w="70" h="70" xo="0" yo="350" id="10009365" name="inst_E148CA41" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
