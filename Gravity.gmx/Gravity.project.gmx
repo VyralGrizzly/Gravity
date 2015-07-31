@@ -260,9 +260,10 @@
     <room>rooms\rm_shroom_3</room>
     <room>rooms\rm_sand_1</room>
     <room>rooms\rm_gameover</room>
+    <room>rooms\rm_demo2</room>
+    <room>rooms\rm_demo</room>
     <room>rooms\rm_sand_2</room>
     <room>rooms\rm_template</room>
-    <room>rooms\rm_demo</room>
     <room>rooms\rm_story_test</room>
     <rooms name="rm_system">
       <room>rooms\rm_collectibles</room>

@@ -157,8 +157,6 @@
     <instance objName="obj_player_char_grav" x="140" y="525" name="inst_0421409B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="630" y="455" name="inst_77A35F7B" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="945" y="455" name="inst_98CC1635" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collision" x="1820" y="490" name="inst_202D1EC1" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collision" x="1890" y="525" name="inst_9B6AEEF8" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="2240" y="455" name="inst_651103BE" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="2310" y="525" name="inst_B3DA9388" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="2660" y="420" name="inst_4590EF1B" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
@@ -181,10 +179,6 @@
     <instance objName="obj_lock_red" x="1330" y="245" name="inst_03BE8A87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lock_red" x="1260" y="245" name="inst_C7D45BD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_key_red" x="1470" y="175" name="inst_D15AB5B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lock_yellow" x="1470" y="105" name="inst_9BB90301" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lock_yellow" x="1400" y="105" name="inst_7D71399D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lock_yellow" x="1330" y="105" name="inst_00B3FE7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_key_yellow" x="1470" y="35" name="inst_964B647D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="0" y="0" name="inst_FC355B7B" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform_v" x="245" y="210" name="inst_5E0F4670" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform_h" x="1050" y="560" name="inst_F8970B9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -639,8 +633,6 @@
     <tile bgName="bg_spritesheet1" x="14210" y="350" w="70" h="70" xo="0" yo="432" id="10001639" name="inst_BAF49DF1" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_spritesheet1" x="14280" y="350" w="70" h="70" xo="0" yo="432" id="10001640" name="inst_C01006FF" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_spritesheet1" x="15085" y="525" w="70" h="70" xo="0" yo="792" id="10001641" name="inst_67E92502" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_grass" x="1820" y="490" w="70" h="70" xo="70" yo="280" id="10005298" name="inst_953BA676" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_grass" x="1890" y="525" w="70" h="70" xo="70" yo="280" id="10005299" name="inst_E555D7CA" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grass" x="2240" y="455" w="70" h="70" xo="70" yo="280" id="10005301" name="inst_B2D7BF01" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grass" x="2310" y="525" w="70" h="70" xo="70" yo="280" id="10005302" name="inst_0287AB8A" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_grass" x="2660" y="420" w="70" h="70" xo="70" yo="280" id="10005303" name="inst_26134863" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

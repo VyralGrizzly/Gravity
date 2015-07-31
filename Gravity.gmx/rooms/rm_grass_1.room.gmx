@@ -82,7 +82,7 @@ sc_savegame();</code>
     <instance objName="obj_collision" x="5040" y="595" name="inst_B29A32DD" locked="0" code="" scaleX="38" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="5390" y="525" name="inst_47884ED6" locked="0" code="" scaleX="28" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="5740" y="455" name="inst_5F6D08BC" locked="0" code="" scaleX="18" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collision" x="7175" y="525" name="inst_2EC4E365" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="obj_collision" x="7175" y="420" name="inst_2EC4E365" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="1470" y="595" name="inst_E512852B" locked="0" code="" scaleX="26" scaleY="12" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="1960" y="455" name="inst_96959B6C" locked="0" code="" scaleX="8" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision" x="2240" y="525" name="inst_DDB442DB" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>

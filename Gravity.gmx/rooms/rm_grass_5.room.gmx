@@ -138,10 +138,8 @@ sc_savegame();</code>
     <instance objName="obj_slime_pink" x="8330" y="595" name="inst_54E708B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_barnacle_left" x="7323" y="595" name="inst_BF0150C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_collision" x="8400" y="560" name="inst_C4835E7F" locked="0" code="" scaleX="6" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collision_enemy" x="8085" y="560" name="inst_2BCED1E8" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_collision_enemy" x="7735" y="561" name="inst_2BCED1E8" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_enemy" x="8400" y="560" name="inst_CCB14D12" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lvl5_trigger" x="7910" y="315" name="inst_B1034F8C" locked="0" code="" scaleX="1" scaleY="9" colour="4294967295" rotation="0"/>
-    <instance objName="obj_story_stand_sad" x="8505" y="514" name="inst_BF8E169B" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_star" x="8190" y="575" name="inst_7B76F3D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>

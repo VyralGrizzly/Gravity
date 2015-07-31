@@ -141,6 +141,7 @@ sc_savegame();</code>
     <instance objName="obj_water" x="4620" y="945" name="inst_5B97A11D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_water" x="4690" y="945" name="inst_8936D76F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_water" x="4760" y="945" name="inst_2B8B35F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_collision" x="5460" y="525" name="inst_867A1EE4" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_grass" x="0" y="595" w="70" h="70" xo="280" yo="210" id="10002605" name="inst_AFD59C00" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
